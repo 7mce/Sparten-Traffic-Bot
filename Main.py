@@ -28,14 +28,14 @@ w = random.randint(16, 86)  #<--- W = Waiting function
 #-------------------------
 # Start notification
 print("----Start----")
-print("Runde", count, "von" ,MaxCount)
-print("Wartezeit", w,"Sek.")
+print("round", count, "of" ,MaxCount)
+print("waiting period", w,"Sek.")
 #-------------------------
 
 
 
 #-------------------------
-# Main loop that does it all.
+# Main loop
 while count != MaxCount:
     with open("url.txt") as f:
         for url in f:
@@ -56,10 +56,10 @@ while count != MaxCount:
             print()                         #<--- placeholder
             print("____________________")   #<--- round start
             count = count + 1               #<--- round counter
-            print("Runde", count, "von" ,MaxCount) 
+            print("round", count, "of" ,MaxCount)
             w = random.randint(30, 90)      #<--- Waiting time is randomize again
             time.sleep(1)
-            print("Wartezeit", w,"Sek.")                        
+            print("waiting period", w,"Sek.")                      
 #-------------------------
 
 
@@ -70,9 +70,9 @@ if count == MaxCount:  #<--- round control unit
 
     #End notification
     print("____________________")           
-    print("Ende")
-    print("Runde", count, "von" ,MaxCount)
-    print("für:", (url))
+    print("End")
+    print("round", count, "of" ,MaxCount)
+    print("for:", (url))
     print("____________________")
     time.sleep(9999)
 #-------------------------
