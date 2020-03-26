@@ -17,16 +17,16 @@ import os
 
 
 #-------------------------
-# Data for while loop
-count = 0                   #<--- Count = Lap counter
-MaxCount = 200              #<--- MaxCount = The maximum number of laps
-w = random.randint(16, 86)  #<--- W = Waiting function
+# Data for loop
+count = 0                   
+MaxCount = 200              
+w = random.randint(16, 86)
 #-------------------------
 
 
 
 #-------------------------
-# Start notification
+# Start
 print("----Start----")
 print("round", count, "of" ,MaxCount)
 print("waiting period", w,"Sek.")
