@@ -18,8 +18,8 @@ There are some difficult ones with YouTube but in general 65% of the traffic goe
 
 # How to use
 - The whole thing works simply via Tor, all you have to do is
-  - 1.) enter your Tor Browser path in line 44
-  - 2.) copy your url in url.txt
+  - 1.) Paste your Tor Browser path in line 44
+  - 2.) Paste your url in url.txt
   - 3.) Run Main.py
   
 and you're good to go.
