@@ -1,4 +1,4 @@
-# Sparten-Trafic-Bot
+# Sparten-Traffic-Bot
 
 Simple Python Traffic Bot.
 Before spending money on bots just use that.
